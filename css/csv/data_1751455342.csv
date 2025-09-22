@@ -1,0 +1,6 @@
+first_name,middle_name,last_name,father_name,email,mobileNumber,sex,dob,community,address,district,state,postoffice,landmark,pincode,exam_center,exam_date,exam_time,roll_number,registration_number,photo,signature,other_info,,
+John,A.,Doe,Robert Doe,john.doe@example.com,9876543210,M,01-01-1990,OC,123 Street,Chennai,TN,Central,Near Park,600001,Center 1,01-07-2025,10:00 AM,ROLL001,REG001,Picture,,,,N/A
+Jane,B.,Smith,Michael Smith,jane.smith@example.com,8765432109,F,02-02-1991,BC,456 Avenue,Madurai,TN,West,Near Mall,600002,Center 2,02-07-2025,11:00 AM,ROLL002,REG002,Picture,,N/A,,
+Arun,C.,Kumar,Suresh Kumar,arun.k@example.com,7654321098,M,03-03-1992,SC,789 Boulevard,Coimbatore,TN,East,Near Lake,600003,Center 3,03-07-2025,12:00 PM,ROLL003,REG003,Picture,,N/A,,
+Priya,D.,Rao,Narayana Rao,priya.rao@example.com,6543210987,F,04-04-1993,ST,321 Lane,Trichy,TN,South,Near Temple,600004,Center 4,04-07-2025,1:00 PM,ROLL004,REG004,Picture,,N/A,,
+Rahul,E.,Mehta,Raj Mehta,rahul.mehta@example.com,5432109876,M,05-05-1994,OC,147 Path,Salem,TN,North,Near School,600005,Center 5,05-07-2025,2:00 PM,ROLL005,REG005,Picture,,N/A,,

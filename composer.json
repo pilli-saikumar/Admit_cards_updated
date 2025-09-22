@@ -1,0 +1,10 @@
+{
+    "name": "saikumar/admitcard",
+    "type": "project",
+    "require": {
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.6"
+    },
+    "license": "n",
+    "minimum-stability": "stable"
+}
