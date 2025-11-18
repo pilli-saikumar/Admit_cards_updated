@@ -1,0 +1,33 @@
+<?php
+session_start();
+include("db_connect.php");
+
+$user_role = $_SESSION['user_role'] ?? null;
+$project_slug = $_SESSION['project_slug'] ?? null;
+function logUserLogout($conn) {
+    if (!isset($_SESSION['log_id'])) return;
+
+    $stmt = $conn->prepare("UPDATE user_logs SET logout_time = NOW() WHERE id = ?");
+    $stmt->bind_param("i", $_SESSION['log_id']);
+    $stmt->execute();
+    $stmt->close();
+
+    unset($_SESSION['log_id']); // Clean up
+}
+logUserLogout($conn);
+// Clear session
+
+
+// Redirect based on role
+if ($user_role === 'candidate' && $project_slug) {
+    session_unset();
+session_destroy();
+    header("Location: /Admit_Cards/$project_slug/index.php");
+} else {
+    session_unset();
+session_destroy();
+    // Admin or fallback
+    header("Location: index.php");
+}
+exit;
+?>

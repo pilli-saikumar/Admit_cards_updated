@@ -3,7 +3,8 @@
     "type": "project",
     "require": {
         "setasign/fpdf": "^1.8",
-        "setasign/fpdi": "^2.6"
+        "setasign/fpdi": "^2.6",
+        "phpoffice/phpspreadsheet": "^5.1"
     },
     "license": "n",
     "minimum-stability": "stable"
